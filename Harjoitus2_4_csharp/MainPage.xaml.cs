@@ -26,5 +26,70 @@ namespace Harjoitus2_4_csharp
         {
             this.InitializeComponent();
         }
+
+        private void radioButton1_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void radioButton2_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void radioButton3_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void checkBox1_Checked(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void checkBox2_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void checkBox3_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void radioButton1_Unchecked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void radioButton1_Unchecked_1(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void radioButton2_Unchecked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = sender as RadioButton;
+        }
+
+        private void radioButton3_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void checkBox1_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void checkBox2_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void checkBox3_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

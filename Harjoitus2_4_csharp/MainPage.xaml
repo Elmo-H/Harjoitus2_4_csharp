@@ -8,7 +8,66 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <RelativePanel>
+        
+        <RadioButton
+            Checked="radioButton1_Checked"
+            Unchecked="radioButton1_Unchecked"
+            Name="radioButton1"
+            Margin="40, 40, 20, 10">
+            alle 18v    
+        </RadioButton>
+        
+        <RadioButton
+            Checked="radioButton2_Checked"
+            Unchecked="radioButton2_Unchecked"
+            Name="radioButton2"
+            RelativePanel.Below="radioButton1"
+            Margin="40, 0, 20, 10">
+            18-29v
+        </RadioButton>
+            
+        <RadioButton
+            Checked="radioButton3_Checked"
+            Unchecked="radioButton3_Unchecked"
+            Name="radioButton3"
+            RelativePanel.Below="radioButton2"
+            Margin="40, 0, 20, 10">
+            30v+
+        </RadioButton>
 
-    </Grid>
+        <CheckBox
+            Checked="checkBox1_Checked"
+            Unchecked="checkBox1_Unchecked"
+            Name="checkBox1"
+            RelativePanel.RightOf="radioButton1"
+            Margin="40, 40, 20, 10">
+            Ajokortti
+        </CheckBox>
+
+        <CheckBox
+            Checked="checkBox2_Checked"
+            Unchecked="checkBox2_Unchecked"
+            Name="checkBox2"
+            RelativePanel.RightOf="radioButton2"
+            RelativePanel.Below="checkBox1"
+            Margin="40, 0, 20, 10">
+            Työturvallisuuskortti
+        </CheckBox>
+
+        <CheckBox
+            Checked="checkBox3_Checked"
+            Unchecked="checkBox3_Unchecked"
+            Name="checkBox3"
+            RelativePanel.RightOf="radioButton3"
+            RelativePanel.Below="checkBox2"
+            Margin="40, 0, 20, 10">
+            Hygieniapassi
+        </CheckBox>
+
+        <TextBlock
+            Name="result">
+        </TextBlock>
+
+    </RelativePanel>
 </Page>
