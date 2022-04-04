@@ -66,7 +66,9 @@
         </CheckBox>
 
         <TextBlock
-            Name="result">
+            Name="result"
+            RelativePanel.Below="radioButton3"
+            Margin="40, 0, 20, 10">
         </TextBlock>
 
     </RelativePanel>
